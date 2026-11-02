@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//REDAP//Sitio web//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:REDAP
+BEGIN:VTIMEZONE
+TZID:America/Lima
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:conversatorio-55-aniversario-peru-china-20261104@redap
+DTSTAMP:20261026T120000Z
+DTSTART;TZID=America/Lima:20261104T180000
+DTEND;TZID=America/Lima:20261104T200000
+SUMMARY:Conversatorio: 55.º aniversario de las relaciones diplomáticas en
+ tre Perú y China
+DESCRIPTION:Diálogo académico sobre las relaciones bilaterales y sus pers
+ pectivas. Inscripción: https://docs.google.com/forms/d/e/1FAIpQLSduFKBlg5
+ zsVR-BcQnFocPU_8O7d3wFh2_jOB7D7JWorc4CFw/viewform
+LOCATION:Auditorio de Estudios Generales Letras\, campus de la PUCP\, Lima\
+ , Perú
+GEO:-12.0677183;-77.0805556
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

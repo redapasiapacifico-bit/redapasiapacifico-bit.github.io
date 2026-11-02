@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//REDAP//Website//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:REDAP
+BEGIN:VTIMEZONE
+TZID:America/Lima
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:panel-55th-anniversary-peru-china-20261104@redap
+DTSTAMP:20261026T120000Z
+DTSTART;TZID=America/Lima:20261104T180000
+DTEND;TZID=America/Lima:20261104T200000
+SUMMARY:Panel discussion: 55th anniversary of diplomatic relations between 
+ Peru and China
+DESCRIPTION:Academic dialogue on bilateral relations and their prospects. R
+ egistration: https://docs.google.com/forms/d/e/1FAIpQLSduFKBlg5zsVR-BcQnFo
+ cPU_8O7d3wFh2_jOB7D7JWorc4CFw/viewform
+LOCATION:Estudios Generales Letras Auditorium\, PUCP campus\, Lima\, Peru
+GEO:-12.0677183;-77.0805556
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
