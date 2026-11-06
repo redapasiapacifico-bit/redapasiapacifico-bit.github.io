@@ -360,3 +360,27 @@ p.prose a,.prose p a{hyphens:manual;-webkit-hyphens:manual}
   .news-item p.prose, p.news-follow{text-align:left;-webkit-hyphens:manual;hyphens:manual}
 }
 @media (max-width:860px){.news-item{grid-template-columns:1fr}}
+
+/* ===== Evento reciente y nota destacada ===== */
+.event.recent{grid-template-columns:minmax(280px,1.2fr) 1fr}
+.event.recent .fig img{width:100%;max-width:none;height:auto}
+.event.recent .fig-btn{width:100%;max-width:none}
+.dark .fig figcaption{color:#CFE0EC}
+.news-item.feature{grid-template-columns:minmax(280px,720px) minmax(0,1fr)}
+.news-item.feature .fig img{max-width:720px}
+.news-item.feature .fig-btn{max-width:720px}
+.news-item.feature .news-text p.prose{margin-bottom:1em}
+@media (max-width:860px){.event.recent,.news-item.feature{grid-template-columns:1fr}}
+
+/* Novedades: todas las notas comparten la misma rejilla (imagen a la izquierda, texto alineado a la derecha) */
+.news-item,
+.news-item.feature{grid-template-columns:minmax(280px,600px) minmax(0,1fr)}
+.news-item .fig img,
+.news-item.feature .fig img{width:100%;max-width:600px;height:auto}
+.news-item .fig-btn,
+.news-item.feature .fig-btn{width:100%;max-width:600px}
+.news-item .fig.contest-thumb img,
+.news-item .fig.contest-thumb .fig-btn{max-width:420px}
+@media (max-width:860px){
+  .news-item,.news-item.feature{grid-template-columns:1fr}
+}
